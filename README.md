@@ -1,19 +1,46 @@
-# Customer Behavior Prediction System
+# 🏆 Customer Behavior Prediction System
 
 ## 🚀 Overview
 This project is a **web-based system** that predicts customer behavior for insurance companies using **deep learning**. It consists of a **Flask backend** for model inference and user registration, and a **React frontend** for user interaction.
 
 ## 📌 Features
-- **User Registration** with data stored in **MongoDB**  
-- **Customer data input** via a web form  
-- **Deep learning model** for behavior prediction  
-- **Flask API** to handle predictions and user registration  
-- **React frontend** for UI  
-- **Data processing** using Pandas & Scikit-Learn  
-- **Joblib** for model serialization  
+✅ **User Registration** with data stored in **MongoDB**  
+✅ **Customer Data Input** via a web form  
+✅ **Deep Learning Model** for behavior prediction  
+✅ **Flask API** for predictions and user registration  
+✅ **React Frontend** for UI  
+✅ **Data Processing** using Pandas & Scikit-Learn  
+✅ **Joblib** for model serialization  
 
 ## 🏗️ Project Structure
-Customer-Behavior/ │── backend/ # Flask API & ML Model │ ├── app.py # Flask main server │ ├── train.py # Model training script │ ├── model.pkl # Trained model (ignored in Git) │ ├── database.py # MongoDB connection setup │ ├── requirements.txt # Backend dependencies │ ├── .gitignore # Ignore unnecessary files │── frontend/ # React Application │ ├── src/ # React source files │ ├── package.json # Frontend dependencies │── README.md # Project documentation │── .gitignore # Global ignore file
+
+### **Backend (Flask)**
+- `backend/`
+  - `app.py` → Main Flask server  
+  - `train.py` → Model training script  
+  - `model.pkl` → Trained model (ignored in Git)  
+  - `database.py` → MongoDB connection setup  
+  - `requirements.txt` → Backend dependencies  
+  - `.gitignore` → Ignore unnecessary files  
+
+### **Frontend (React)**
+- `frontend/`
+  - `src/` → React source files  
+  - `package.json` → Frontend dependencies  
+
+### **Root Directory**
+- `README.md` → Project documentation  
+- `.gitignore` → Global ignore file  
+
+## 🔧 Installation & Setup
+
+### **Backend Setup (Flask)**
+1. Navigate to the `backend/` folder.  
+2. Create and activate a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On macOS/Linux
+   venv\Scripts\activate     # On Windows
 
 ## 🔧 Installation & Setup
 
