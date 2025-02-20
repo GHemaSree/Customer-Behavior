@@ -1,0 +1,129 @@
+.PredictionForm {
+  font-family: 'Arial', sans-serif; 
+  background-image: url('../Assets/new_img.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+}
+
+.PredictionForm .form-container {
+  background-color: rgba(255, 255, 255, 0.463);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 80%;
+  max-width: 350px;
+  text-align: center; 
+}
+
+.PredictionForm {
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  padding-right: 50px;
+}
+
+.PredictionForm h1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 30px;
+  color: antiquewhite;
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.PredictionForm .App {
+  background-image: "../Assets/backgroundHealth.jpeg";
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  padding: 20px;
+  width: 100%; 
+  max-width: 800px; 
+}
+
+/* Header Styles */
+.PredictionForm h2 {
+  color: #333; 
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+.PredictionForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.PredictionForm label {
+  margin-bottom: 3px;  /* Reduced from 5px */
+  color: #555;
+  font-weight: bold;
+  text-align: left;
+}
+
+.PredictionForm input[type="number"],
+.PredictionForm input[type="text"],
+.PredictionForm select {
+  text-align: center;
+  padding: 6px;  /* Reduced padding for compact look */
+  margin-bottom: 6px;  /* Reduced from 10px */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.PredictionForm select {
+  appearance: none;
+  background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="%23333" d="M2 0L0 2h4zm0 5L0 3h4z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 8px top 50%;
+  background-size: 10px;
+  padding-right: 25px;
+}
+
+/* Button */
+.PredictionForm button {
+  background-color: #007bff; 
+  color: white;
+  padding: 8px 12px; /* Reduced padding */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 8px; /* Added a small gap before button */
+}
+
+.PredictionForm button:hover {
+  background-color: #0056b3;
+}
+
+/* Prediction message */
+.PredictionForm p.prediction {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Green background for Eligible */
+.PredictionForm p.eligible {
+  background-color: #28a745;
+  color: white;
+}
+
+/* Red background for Not Eligible */
+.PredictionForm p.not-eligible {
+  background-color: #dc3545;
+  color: white;
+}
