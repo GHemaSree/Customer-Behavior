@@ -1,9 +1,9 @@
-# 🏆 Customer Behavior Prediction System
+#  Customer Behavior Prediction System
 
-## 🚀 Overview
+##  Overview
 This project is a **web-based system** that predicts customer behavior for insurance companies using **deep learning**. It consists of a **Flask backend** for model inference and user registration, and a **React frontend** for user interaction.
 
-## 📌 Features
+##  Features
 ✅ **User Registration** with data stored in **MongoDB**  
 ✅ **Customer Data Input** via a web form  
 ✅ **Deep Learning Model** for behavior prediction  
@@ -12,7 +12,7 @@ This project is a **web-based system** that predicts customer behavior for insur
 ✅ **Data Processing** using Pandas & Scikit-Learn  
 ✅ **Joblib** for model serialization  
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ### **Backend (Flask)**
 - `backend/`
@@ -56,13 +56,13 @@ This project is a **web-based system** that predicts customer behavior for insur
 2. Install dependencies using `npm install`.  
 3. Start the React development server.  
 
-## 🔥 API Endpoints
+##  API Endpoints
 | Endpoint        | Method | Description                      |
 |----------------|--------|----------------------------------|
 | `/register`    | POST   | Register a new user (MongoDB)   |
 | `/predict`     | POST   | Predict customer behavior       |
 
-## 🛠️ Technologies Used
+##  Technologies Used
 ### **Backend**
 - Flask  
 - TensorFlow  
@@ -74,7 +74,4 @@ This project is a **web-based system** that predicts customer behavior for insur
 ### **Frontend**
 - React  
 - Axios  
-- React Router  
-
-## 👨‍💻 Contributors
-- **[Hema Sree]** – Developer  
+- React Router   
