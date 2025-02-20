@@ -32,7 +32,7 @@ This project is a **web-based system** that predicts customer behavior for insur
 - `README.md` → Project documentation  
 - `.gitignore` → Global ignore file  
 
-## 🔧 Installation & Setup
+## Installation & Setup
 
 ### **Backend Setup (Flask)**
 1. Navigate to the `backend/` folder.  
