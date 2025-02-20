@@ -42,7 +42,7 @@ This project is a **web-based system** that predicts customer behavior for insur
    source venv/bin/activate  # On macOS/Linux
    venv\Scripts\activate     # On Windows
 
-## 🔧 Installation & Setup
+##  Installation & Setup
 
 ### **Backend Setup (Flask)**
 1. Navigate to the `backend/` folder.  
@@ -62,7 +62,7 @@ This project is a **web-based system** that predicts customer behavior for insur
 | `/register`    | POST   | Register a new user (MongoDB)   |
 | `/predict`     | POST   | Predict customer behavior       |
 
-##  Technologies Used
+## Technologies Used
 ### **Backend**
 - Flask  
 - TensorFlow  
